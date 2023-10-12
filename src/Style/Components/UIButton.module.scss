@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Montserrat&display=swap");
+.UIButton {
+}
+.UIButton.string {
+  margin-top: 15px;
+  cursor: pointer;
+  background-color: rgba(102, 102, 102, 0.533);
+  color: rgb(209, 206, 143);
+  text-align: center;
+  outline: 1px solid rgb(0, 0, 0);
+  border-radius: 7px;
+  padding: 3px;
+}
+.UIButton.number {
+  cursor:pointer;
+  color: blue;
+  text-decoration:underline;
+}
+.UIButton.active {
+  cursor:pointer;
+  font-family: "Montserrat", sans-serif;
+}

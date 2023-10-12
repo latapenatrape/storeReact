@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Montserrat&display=swap");
+.Card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 0;
+  padding: 15px;
+  border-color: black;
+  background-color: gray;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+}
+p {
+  font-family: "Montserrat", sans-serif;
+}
+.sign__btn {
+  margin-top: 5px;
+  background-color: white;
+  border-color: grey;
+  font-family: "Montserrat", sans-serif;
+}
